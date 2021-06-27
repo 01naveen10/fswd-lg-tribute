@@ -1,0 +1,73 @@
+body {
+    background-color: ##f4e7d3;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+.brand-img {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    margin: 50px 0;
+}
+
+hr {
+    height: 2px;
+    background-color: white;
+    border: dotted black 5px;
+    border-bottom: none;
+    width: 6%;
+    margin: 50px auto;
+}
+
+.key-notes {
+    background-color: #d83c65;
+}
+
+.section-header {
+    font-weight: 400;
+    font-family: "roboto";
+    padding-top: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.ended {
+    background-color: #171717;
+}
+
+.accordion-button {
+    background-color: #171717;
+    color: white;
+}
+
+.accordion-button::after {
+    border-radius: 25%;
+    background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #878888;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(247 247 247 / 25%);
+}
+
+.fab {
+    margin: 0 20px;
+}
