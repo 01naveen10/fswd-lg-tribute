@@ -23,16 +23,16 @@
 </head>
 
 <body>
-    <!--Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!---------------------------------------------------------------Nav bar--------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img class="brand-img" src="lg-vector-logo.png" alt="Lg Logo" /> LG Tribute
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -42,12 +42,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
+                    <li class="nav-item  position-absolute  end-0 ">
+                        <a class="nav-link " href="#"><button class="dark-mode btn btn-dark"><i class="far fa-moon"></i> <span class="d-sm-none d-lg-inline-block">Dark Mode</span></spanDark></button></a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!------------------------------------------------------------NavBAR ENDED-->
-    <header class="container text-sm-center text-md-start">
+    <!------------------------------------------------------------NavBAR ENDED---------------------------------------------------------->
+    <header class="container text-sm-center text-md-start pt-5">
         <h1>How They Started</h1>
         <p>
             LG Electronics is a global leader in technology innovation in the consumer electronics and appliances fields including TVs, refrigerators, air conditioners, smartphones, and vehicle components, with more than 100 business locations around the world.
@@ -153,7 +156,7 @@
             <div class="accordion accordion text-dark" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <button class="accordion-button custom-accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 Marketing issues
               </button>
                     </h2>
@@ -166,7 +169,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <button class="accordion-button custom-accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 Takes too long to update
               </button>
                     </h2>
@@ -181,7 +184,7 @@
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <button class="accordion-button custom-accordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                 Confusing Naming Scheme
               </button>
                     </h2>
@@ -223,12 +226,12 @@
           </div>
     </section>
 
-    <footer class="text-muted py-4 bg-dark">
+    <footer class=" bg-dark py-4 ">
       <div class="container">
         <p class="float-end mb-1">
             <a class="btn btn-danger" href="#"> Back to top</a>
         </p>
-        <div class="text-light text-center">
+        <div class="icons text-light text-center">
             &copy; 
             <i class="fab fa-instagram"></i>
             <i class="fab fa-facebook"></i>
@@ -247,5 +250,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
